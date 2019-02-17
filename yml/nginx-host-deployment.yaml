@@ -19,7 +19,7 @@ spec:
         io.kompose.service: nginx-host
     spec:
       containers:
-      - image: divoivo/nginx-host
+      - image: divoivo/nginx-host:%IMAGE-PLACEHOLDER%
         name: nginx-host
         ports:
         - containerPort: 80
